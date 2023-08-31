@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="/css/header.css">
+<div>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-md ">
+          <a class="navbar-brand text-white home" href="/"><img src="https://www.zohowebstatic.com/sites/default/files/projects/features/issue-tracking-banner.png" alt="" width="40" height="40"> Issue Trucker</a>
+        </div>
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-success mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Create a Project
+  </button>
+  
+  <!-- Modal -->
+  <form action="item" method="post">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a Project</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="d-flex flex-column modal-body">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Your Name">
+          <label for="desc">Description</label>
+          <textarea id="desc" name="desc" rows="5" cols="33"></textarea>
+          <label for="auth">Author</label>
+          <input type="text" name="auth" id="auth" placeholder="Enter Author Name">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+      </div>
+    </div>
+</div>
+</form>
+  
+      </nav>
+</div>
+

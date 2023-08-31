@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/css/project_page.css">
+<%- include('project_header');%>
+
+<div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">All Issue</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Modal -->
+        <div>
+        <% for(let i of listes){%>  
+                  <div class="modal-body">
+                    <h4>Tiltle :- <%=i.title%></h4>
+                    <h4>Author Name :- <%=i.author%></h4>
+                    <p>Description :- <%=i.descrip%></p>
+                    <p>Label :- <%=i.bug%>,<%=i.ui%>,<%=i.doc%>,<%=i.dub%></p>
+                  </div>
+                  <%}%>
+                </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

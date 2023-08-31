@@ -1,0 +1,20 @@
+.home:hover{
+    color: rgb(149, 80, 80) !important;
+}
+
+.modal-body input{
+    padding: .3rem !important;
+    font-size: 1.2rem !important;
+    font-weight: 400;
+    border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+.modal-body textarea{
+    border-radius: 5px !important;
+    box-shadow: -1px -1px 0px 1px black;
+    
+}
+.modal-body label{
+    color: rgb(245, 6, 6);
+    font-size: 1.4rem;
+}

@@ -1,0 +1,22 @@
+body{
+    margin:0px;
+    background-color: rgb(134, 85, 105) !important;
+}
+.card{
+    width: 50vh;
+    height: 70vh;
+}
+.item{
+    padding: .5rem;
+    margin-top: 5%;
+    height: 100% !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+.item ul{
+    flex-wrap: wrap !important;
+}
+.item li{
+    list-style: none;
+    margin: 2rem;
+}

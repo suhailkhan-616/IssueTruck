@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+.home:hover{
+    color: rgb(149, 80, 80) !important;
+}
+
+.modal-body input{
+    padding: .3rem !important;
+    font-size: 1.2rem !important;
+    font-weight: 400;
+    border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+.modal-body textarea{
+    border-radius: 5px !important;
+    box-shadow: -1px -1px 0px 1px black;
+    
+}
+.modal-body label{
+    color: rgb(245, 6, 6);
+    font-size: 1.4rem;
+}
+.a{
+    margin: 1rem;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.a label{
+    color: black;
+}
+.a h5{
+    color: rgb(245, 6, 6);
+}
+.ui{
+    margin-left: 6.7rem !important;
+    /* border: 2px solid black; */
+}
+.doc{
+    margin-left: 7rem !important;
+    /* border: 2px solid black; */
+}
+.dub{
+    margin-left: 3.2rem !important;
+    /* border: 2px solid black; */
+}

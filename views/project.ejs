@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/project.css">
+<%- include('project_header');%>
+    <div class="container container1">
+        <% for(let i of list){%>
+            <div class="name same">
+                    <h1>
+                        Name:- <p>
+                            <%=i.name%>
+                        </p>
+                    </h1>
+            </div>
+            <div class="desc same">
+                <h1>
+                    Description:- <p>
+                        <%=i.desc%>
+                    </p>
+                </h1>
+            </div>
+            <div class="auth same">
+                <h1>
+                    Author Name:- <p>
+                        <%=i.auth%>
+                    </p>
+                </h1>
+            </div>              
+            <%}%>
+        </div>
