@@ -10,7 +10,17 @@ module.exports.home = async function (req, res) {
         console.log('Error in finding', err);
     }
 }
-module.exports.Project =async function (req, res) {
+module.exports.show = async function(req,res){
+    try {
+        // const TodoList = await List.find();
+        return res.render('project_page', {
+            title: 'Project_page |',
+        });
+    } catch (err) {
+        console.log('Error in finding', err);
+    }
+}
+ module.exports.Project =async function (req, res) {
         try {
             const TodoList = await List.find();
             return res.render('project', {
